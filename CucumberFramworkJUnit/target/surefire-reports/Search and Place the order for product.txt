@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Search and Place the order for product
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 34.84 s <<< FAILURE! -- in Search and Place the order for product
+Search and Place the order for product.Search Experience for product in both home and Offers page #1 -- Time elapsed: 19.27 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pageObjects.OffersPage.searchItems(OffersPage.java:19)
+	at stepDefinitions.OfferPageStepDef.user_searched_for_same_shortname_in_offers_page(OfferPageStepDef.java:37)
+	at ✽.User searched for Tom shortname in offers page(file:///C:/Users/Deva/eclipse-workspace1/CucumberFramworkJUnit/src/test/java/features/searchProduct.feature:7)
+
+Search and Place the order for product.Search Experience for product in both home and Offers page #2 -- Time elapsed: 15.57 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pageObjects.OffersPage.searchItems(OffersPage.java:19)
+	at stepDefinitions.OfferPageStepDef.user_searched_for_same_shortname_in_offers_page(OfferPageStepDef.java:37)
+	at ✽.User searched for Pot shortname in offers page(file:///C:/Users/Deva/eclipse-workspace1/CucumberFramworkJUnit/src/test/java/features/searchProduct.feature:7)
+
